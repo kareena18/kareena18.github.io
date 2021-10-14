@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #ffe5b4;
+  font-family: sans-serif;
+}
+.contact{
+  padding-top: 65px;
+  text-align: center;
+}
+.contact-box{
+  width: 500px;
+  background-color: #efefef;
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+form{
+  margin: 35px;
+}
+.input-field{
+  width: 420px;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+.textarea-field{
+  height: 150px;
+  padding-top: 10px;
+}
+.btn{
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+footer{
+  position: fixed;
+  left: 25px;
+  bottom: 20px;
+  right: 25px;
+  width: 95%;
+  text-align: center;
+}
+
+
+.navbar {
+  position: fixed;
+  padding-left: 420px;
+  padding-right: 420px;
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #000;
+}
+.active {
+  background-color: #04AA6D;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms; 
+}
+li a:hover{
+  color: #b9b9b9;
+}
